@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.img-thumbnail {
+  height: 150px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1, 1.1);
+
+}
+
+#radi {
+  border-radius: 50%;
+
+}
+
+.ani {
+  animation-name: ashish1;
+  animation-duration: 1s;
+  animation-direction: normal;
+
+  animation-iteration-count: infinite;
+}
+
+
+
+@keyframes ashish1 {
+  from {
+    color: black;
+  }
+
+  to {
+    color: red;
+  }
+}
+
+.head:hover {
+  color: red;
+}
+
+p {
+  color: black;
+  font-weight: bolder;
+}
+
+p:hover {
+  color: violet;
+}
+
+#logo {
+  height: 30px;
+  padding: 0px 15px 0px 5px;
+}
+
+.nav-link active {
+  font-weight: bold;
+
+}
+
+.nav-item {
+  font-weight: bold;
+}
+
+.navbar-brand::first-letter {
+  font-size: 30px;
+  font-style: italic;
+  color: red;
+
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-brand::first-word {
+  color: #ffbb00;
+}
+
+.nav-item::first-letter {
+  color: #ffc800;
+}
+button{
+  color:red;
+     border:1px solid green;
+  border-radius:5px;
+  background-color:green;
+}
